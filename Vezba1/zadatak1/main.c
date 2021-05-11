@@ -1,6 +1,14 @@
 void PrintResult(int res)
 {
-printf("Result: %d\n", res);
+	printf("Result: %d\n", res);
+
+
+int Calculation(int a, int b)
+{
+    if(a > b)
+      return a - b;
+    else
+      return b - a;
 }
 
 
