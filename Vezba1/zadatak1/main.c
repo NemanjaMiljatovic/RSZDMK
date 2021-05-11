@@ -1,3 +1,9 @@
+void PrintResult(int res)
+{
+printf("Result: %d\n", res);
+}
+
+
 #include <stdio.h>
 int main()
 {
